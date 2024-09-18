@@ -1,0 +1,46 @@
+.input-container{
+    width:50%;
+    margin: auto;
+    position: relative;
+    top:100px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:50vh;
+    text-align: center;
+    padding:10px;
+    border-radius: 10px;
+}
+body{
+    background-color: #A1D6B2;
+}
+.container-input{
+    width:60%;
+    margin: auto;
+}
+.btn{
+    font-size: large;
+    font-weight: bold;
+}
+#error-name, #error-username, #error-email, #error-password, #error-message{
+    color:red;
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    .input-container{
+        width:80%;
+        margin: auto;
+        position: relative;
+        top:100px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height:60vh;
+        text-align: center;
+        padding:10px;
+        border-radius: 10px;
+    }
+    .container-input{
+        width:80%;
+        margin: auto;
+    }
+}

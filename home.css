@@ -1,0 +1,21 @@
+.logo{
+    border-radius: 50%;
+    width:10%;
+}
+.container-logo{
+    display: flex;
+}
+
+.container-body{
+    display: flex;
+    justify-content: center;
+}
+.card-header{
+    font-size: larger;
+}
+
+.container-img{
+    width:60%;
+    margin: auto;
+}
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+        <div class="container-logo">
+          <a href=""><img class="logo" src="https://i.pinimg.com/564x/f5/22/7e/f5227e2d7ea8fcf9a3fd4b47bfdd720e.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+          <div class="collapse navbar-collapse text-center"  id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="pray.html">Prays</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="weather.html">Weather</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container-body mt-5">
+        <div class="card text-dark bg-warning mb-3" style="max-width: 18rem;">
+            <div class="card-header" id="username">
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Weather&Pray Website</h5>
+              <p class="card-text">select from navbar to choose</p>
+            </div>
+      </div>
+      </div>
+      
+        <div class="container-img">
+            <div class="card-group">
+                <div class="card">
+                  <img height="100%" src="https://i.pinimg.com/564x/0b/67/96/0b679656ca7ee45626d54e01c3c476b5.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Weather</h5>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, cum? Quaerat aspernatur reiciendis rerum voluptates iusto alias autem, eligendi laboriosam dolores error ut quasi ipsum sed doloribus corporis, recusandae fuga.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img height='100%' src="https://i.pinimg.com/564x/79/71/c2/7971c217ff04734ff2ed6a3eee2252da.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Pray Times</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolores quo sed blanditiis maxime aut cum ipsum neque doloremque facere nihil, culpa deserunt alias consequuntur autem temporibus, enim ipsam saepe.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+        </div>
+      
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="home.js"></script>
+</body>
+</html>

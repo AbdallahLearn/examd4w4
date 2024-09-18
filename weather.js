@@ -22,9 +22,13 @@ fetch(url)
     let b = data.coord.lat
     let c = data.main.temp
     let d = data.main.humidity
-    
+    let r = data.main.temp
 
-    
+
+    one.textContent = a
+    two.textContent = b
+    thr.textContent = c
+    four.textContent = d
     
 
 
